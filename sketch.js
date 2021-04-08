@@ -83,6 +83,7 @@ function draw() {
   textSize(20);
   fill("black");
   text("Score: "+ score, 480,50);
+ fill("green");
   text("HS :" + highScore, 400, 50);
   
   if(gameState === PLAY){
